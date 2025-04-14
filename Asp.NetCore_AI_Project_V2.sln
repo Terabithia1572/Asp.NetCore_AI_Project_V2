@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.NetCore_AI_Project_05_O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.NetCore_AI_Project_06_Dall-E_ImageGeneration", "Asp.NetCore_AI_Project_06_Dall-E_ImageGeneration\Asp.NetCore_AI_Project_06_Dall-E_ImageGeneration.csproj", "{6EC638D4-E0EC-4FEE-BB9F-70DFA610BDBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.NetCore_AI_Project_07_TesseractOCRAIProject", "Asp.NetCore_AI_Project_07_TesseractOCRAIProject\Asp.NetCore_AI_Project_07_TesseractOCRAIProject.csproj", "{894BD733-E8CE-47BB-BBB6-27AE33F0CC17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6EC638D4-E0EC-4FEE-BB9F-70DFA610BDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EC638D4-E0EC-4FEE-BB9F-70DFA610BDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EC638D4-E0EC-4FEE-BB9F-70DFA610BDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894BD733-E8CE-47BB-BBB6-27AE33F0CC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894BD733-E8CE-47BB-BBB6-27AE33F0CC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894BD733-E8CE-47BB-BBB6-27AE33F0CC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894BD733-E8CE-47BB-BBB6-27AE33F0CC17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
