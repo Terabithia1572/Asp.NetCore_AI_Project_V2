@@ -1,5 +1,6 @@
 ﻿using Tesseract;
 
+class Program { 
 static void Main(string[] args)
 {
     Console.WriteLine("Karakter Okuması Yapılacak Resim Yolu:");
@@ -27,4 +28,5 @@ static void Main(string[] args)
 
        Console.WriteLine("Hata: Resim dosyası bulunamadı veya Tesseract veri yolu hatalı."); // Hata mesajı
     }
+}
 }
