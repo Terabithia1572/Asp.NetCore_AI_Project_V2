@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.ReadLine();
+﻿class Program
+{
+    static async Task Main(string[] args)
+    {
+        string apiKey = "api key buraya gelecek"; //Open AI API key buraya gelecek
+        string audioFilePath = "audio1.mp3"; // Ses dosyasının yolu
+    }
+}
