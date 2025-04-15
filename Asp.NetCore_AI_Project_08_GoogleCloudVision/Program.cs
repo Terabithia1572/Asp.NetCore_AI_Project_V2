@@ -1,4 +1,6 @@
-﻿class Program
+﻿using Google.Cloud.Vision.V1;
+
+class Program
 {
     static void Main(string[] args)
     {
@@ -9,12 +11,19 @@
         Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialPath); // Google Cloud kimlik bilgileri ayarlanıyor
         try
         {
-            var client=ImageAnnotator
+            var client=ImageAnnotatorClient.Create(); // Google Cloud Vision istemcisi oluşturuluyor
+            var image = Image.FromFile(imagePath); // Resim dosyası yükleniyor
+            var response = client.DetectText(image); // Resimden metin tespiti yapılıyor
+            Console.WriteLine("Okunan Metin:");
+            foreach (var annotation in response)
+            {
+                Console.WriteLine(annotation.Description); // Okunan metin ekrana yazdırılıyor
+            }
         }
         catch (Exception)
         {
 
-            throw;
+          Console.WriteLine("Hata: Resim dosyası bulunamadı veya Google Cloud kimlik bilgileri hatalı."); // Hata mesajı
         }
     }
 }
